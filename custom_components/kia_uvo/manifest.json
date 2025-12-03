@@ -14,7 +14,7 @@
     "hyundai_kia_connect_api"
   ],
   "requirements": [
-    "hyundai_kia_connect_api @ git+https://github.com/killerbee84/hyundai_kia_connect_api.git@24129fd"
+    "hyundai_kia_connect_api @ git+https://github.com/killerbee84/hyundai_kia_connect_api.git@12f0208"
   ],
-  "version": "2.46.6"
+  "version": "2.46.7"
 }
