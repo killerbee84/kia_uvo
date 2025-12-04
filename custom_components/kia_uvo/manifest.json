@@ -1,20 +1,15 @@
 {
   "domain": "kia_uvo",
   "name": "Kia Uvo / Hyundai Bluelink",
-  "codeowners": [
-    "@fuatakgun"
-  ],
+  "codeowners": ["@fuatakgun"],
   "config_flow": true,
   "documentation": "https://github.com/Hyundai-Kia-Connect/kia_uvo",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/Hyundai-Kia-Connect/kia_uvo/issues",
-  "loggers": [
-    "kia_uvo",
-    "hyundai_kia_connect_api"
-  ],
+  "loggers": ["kia_uvo", "hyundai_kia_connect_api"],
   "requirements": [
-    "hyundai_kia_connect_api @ git+https://github.com/killerbee84/hyundai_kia_connect_api.git@f6359af"
+    "hyundai_kia_connect_api @ git+https://github.com/killerbee84/hyundai_kia_connect_api.git@668195e"
   ],
-  "version": "2.46.13"
+  "version": "2.46.14"
 }

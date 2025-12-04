@@ -300,6 +300,14 @@ SENSOR_DESCRIPTIONS: Final[tuple[HyundaiKiaBinarySensorEntityDescription, ...]] 
         device_class=BinarySensorDeviceClass.WINDOW,
         entity_category=EntityCategory.DIAGNOSTIC,
     ),
+    HyundaiKiaBinarySensorEntityDescription(
+        key="ev_battery_precondition_enabled",
+        name="EV Battery Preconditioning",
+        is_on=lambda vehicle: vehicle.ev_battery_precondition_enabled,
+        on_icon="mdi:battery-clock",
+        off_icon="mdi:battery-clock-outline",
+        entity_category=EntityCategory.DIAGNOSTIC,
+    ),
 )
 
 
