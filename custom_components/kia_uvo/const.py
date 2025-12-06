@@ -43,3 +43,12 @@ DEFAULT_ENABLE_GEOLOCATION_ENTITY: bool = False
 DEFAULT_USE_EMAIL_WITH_GEOCODE_API: bool = False
 
 DYNAMIC_UNIT: str = "dynamic_unit"
+
+PLATFORMS = [
+    "binary_sensor",
+    "device_tracker",
+    "lock",
+    "number",
+    "sensor",
+    "switch",
+]
